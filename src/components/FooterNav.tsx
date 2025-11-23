@@ -53,7 +53,7 @@ const NAV: NavItem[] = [
   {
     name: "Contact",
     link: {
-      pathname: "/Contact",
+      pathname: "/contact",
     },
     icon: ChatBubbleLeftRightIcon,
   },
