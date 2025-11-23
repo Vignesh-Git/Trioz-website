@@ -58,7 +58,7 @@ const StayCard2: FC<StayCard2Props> = ({
       <div className={size === "default" ? "mt-3 space-y-3" : "mt-2 space-y-2"}>
         <div className="space-y-2">
           <span className="text-sm text-neutral-500 dark:text-neutral-400">
-            {listingCategory.name} · {bedrooms} beds
+            {listingCategory.name}
           </span>
           <div className="flex items-center space-x-2">
             {isAds && <Badge name="ADS" color="green" />}
@@ -70,7 +70,7 @@ const StayCard2: FC<StayCard2Props> = ({
               <span className="line-clamp-1">{title}</span>
             </h2>
           </div>
-          <div className="flex items-center text-neutral-500 dark:text-neutral-400 text-sm space-x-1.5">
+          {/* <div className="flex items-center text-neutral-500 dark:text-neutral-400 text-sm space-x-1.5">
             {size === "default" && (
               <svg
                 className="h-4 w-4"
@@ -93,16 +93,16 @@ const StayCard2: FC<StayCard2Props> = ({
               </svg>
             )}
             <span className="">{address}</span>
-          </div>
+          </div> */}
         </div>
-        <div className="w-14 border-b border-neutral-100 dark:border-neutral-800"></div>
+        {/* <div className="w-14 border-b border-neutral-100 dark:border-neutral-800"></div> */}
         <div className="flex justify-between items-center">
           <span className="text-base font-semibold">
             {price}
             {` `}
             {size === "default" && (
               <span className="text-sm text-neutral-500 dark:text-neutral-400 font-normal">
-                /night
+                onwards
               </span>
             )}
           </span>

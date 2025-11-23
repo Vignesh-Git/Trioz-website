@@ -86,7 +86,7 @@ const DEMO_CATS: TaxonomyType[] = [
 const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "1",
-    href: "/listing-stay-map",
+    href: "/contact",
     name: "Makeup",
     taxonomy: "category",
     count: "Unveil Your Best Look",
@@ -95,7 +95,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "2",
-    href: "/listing-stay-map",
+    href: "/contact",
     name: "Boutique",
     taxonomy: "category",
     count: "Unveil Your Radiant Elegance",
@@ -104,7 +104,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "3",
-    href: "/listing-stay-map",
+    href: "/contact",
     name: "Salon",
     taxonomy: "category",
     count: "Unveil Your True Style",
